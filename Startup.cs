@@ -40,7 +40,7 @@ namespace redoASPMVC
         app.UseHsts();
       }
       app.UseHttpsRedirection();
-      app.UseStaticFiles();
+      app.UseStaticFiles();//enables serving static files
 
       app.UseRouting();
 
